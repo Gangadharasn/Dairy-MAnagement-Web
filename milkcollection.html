@@ -1,0 +1,232 @@
+<html>
+<body>
+
+
+  
+<style type="text/css">
+body{
+    margin: 0;
+    padding: 0;
+    color:#fff
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+
+#title {
+  color: blue;
+  position: absolute;
+  top: 25%;
+  left: 52%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+   font-family:Brush Script MT;
+}
+#title1 {
+  color: blue;
+  position: absolute;
+  top: 4%;
+  left: 53%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 10px;
+  font-family:verdana;
+  
+}
+#title2 {
+  color: red;
+  position: absolute;
+  top: 17%;
+  left: 52.5%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 8px;
+  font-family:verdana;
+}
+#title3 {
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 75%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ font-size: 15px;
+  font-family:verdana;
+}
+#title4 {
+  color: white;
+  position: absolute;
+  top: 35%;
+  left: 75%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+font-size: 15px;
+  font-family:verdana;
+}
+#title5 {
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 75%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+font-size: 15px;
+  font-family:verdana;
+}
+#title6 {
+  color: white;
+  position: absolute;
+  top: 55%;
+  left: 75%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+font-size: 15px;
+  font-family:verdana;
+}
+#title7 {
+  color: white;
+  position: absolute;
+  top: 65%;
+  left: 75%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+font-size: 15px;
+  font-family:verdana;
+}
+.login-box{
+    width:198%;
+    height: 420px;
+    background:black;
+    colo r: red  ;
+    top: 150%;
+    left: 1%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 70px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family:verdana;
+  font-color:white;
+  font-size:15px;
+
+}
+@media (max-width:620px)
+{
+.login-box,.box,.avat2{
+width:auto;
+}
+}
+.box{
+    width: 950px;
+    height: 500px;
+
+    background: rgba(0, 0, 0, 0.02);
+    color: black;
+    top: 60%;
+    left: 51%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 70px;
+	font-family:Agency FB;
+	font-size: 15px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.box1{
+
+    top: 20%;
+    left: 57%;
+
+}
+.box2{
+
+    top: 30%;
+    left: 200%;
+}
+
+.box input[type="submit"]
+{
+    
+    height: 30px;
+	width: 70px;
+    color:red;
+    font-size: 15px;
+	left:70%;
+	
+	
+}
+.avatar1{
+    width: 60px;
+    height: 60px;
+    border-radius: 70%;
+    position: absolute;
+    top: 36px;
+    left: 50%;
+}
+.avat2{
+    width: 40px;
+    height: 40px;
+    border-radius: 900%;
+    position: absolute;
+    top: 40px;
+    left: 74.3%;
+}
+#head {
+
+  top: 40%;
+  left: 47%;
+ position: absolute;
+  font-size: 16px;
+  font-family:Arial Unicode MS;
+  color:red;
+}
+</style>
+<head>
+<div id="title1">Dairy Management System</div>
+ <img src="images.jpg" class="avatar1">
+<div id="title2">MILK FULL OF LOVE</div>
+<marquee style=" position:absolute;top:19%;font-size:21px;color:green;" scrollamount='10' direction='right' behavior='scroll' top=40% "> Milk Data Entry</marquee></div>
+<div class="box">
+ <form method="POST" action="data_entry.php">
+<pre>Customer Id                        Customer Name                        Shift</pre>
+<pre><input class="box1" type="text" name="id"/>              <input type="text" name="name"/>                <a>Morning<input type="checkbox"  name="shift" value="Morning"/>   Evening<input type="checkbox" name="shift" value="Evening"/></a></pre>              
+</br>
+</br>
+<pre>Date                               Time                                 Milk Type</pre> 
+<pre><input type="Date" name="date"/>                 <input type="time" name="time"/>                          Cow<input type="checkbox" name="milktype" value="Cow"/>   Buffalo<input type="checkbox" name="milktype" value="Buffalo"/></pre>
+</br>
+</br>
+<pre>Fat                                Quantity</pre>
+<pre><input class="box1" type="text" name="fat"/>              <input type="text" name="qua"/></pre>
+</br>
+</br>
+<pre>                                            <input  type="submit"></pre>
+</div>
+
+<div class="login-box">
+<div id="title3"><a href="admin.php">Home</a></div>
+<div id="title4"><a href="index.html">Contact Us</a></div>
+<div id="title5"><a href="index.html">About Us</a></div>
+<div id="title6"><a href="customerlog.html">Customer</a></div>
+<div id="title7"><a href="adminlog.html">Admin</a></div>
+<img src="download.png" class="avat2"/>
+
+</head>
+
+</body>
+
+</html>
